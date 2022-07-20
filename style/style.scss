@@ -101,4 +101,34 @@ main{
             }
         }
     }
+    section{
+        .awork-title{ border: 1px solid royalblue;
+            height: 78px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{ border: 1px solid palevioletred;
+                font-family: 'Marcellus', Helvetica, sans-serif;
+                font-weight:400;
+                font-size: 45px;
+            }
+        }
+        .awork{
+            height: 300px;
+            display: flex;
+            .awork-text{ border: 1px solid peru;
+                height: 100%;
+                width: 50%;
+                font-family: 'Marcellus', Helvetica, sans-serif;
+                font-weight: 500;
+            }
+            .awork-picture{ border: 1px solid springgreen;
+                height: 100%;
+                width: 50%;
+                img{
+                    height: 200px;
+                }
+            }
+        }
+    }
 }

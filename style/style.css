@@ -100,4 +100,36 @@ main section .ahero .ahero-box .ahero-box-image .ahero-box-image-picture img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+main section .awork-title {
+  border: 1px solid royalblue;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section .awork-title a {
+  border: 1px solid palevioletred;
+  font-family: "Marcellus", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+}
+main section .awork {
+  height: 300px;
+  display: flex;
+}
+main section .awork .awork-text {
+  border: 1px solid peru;
+  height: 100%;
+  width: 50%;
+  font-family: "Marcellus", Helvetica, sans-serif;
+  font-weight: 500;
+}
+main section .awork .awork-picture {
+  border: 1px solid springgreen;
+  height: 100%;
+  width: 50%;
+}
+main section .awork .awork-picture img {
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */
