@@ -125,11 +125,19 @@ main section .awork .awork-text {
   font-family: "Marcellus", Helvetica, sans-serif;
   font-weight: 500;
 }
+main section .awork .awork-text p {
+  border: 1px solid palevioletred;
+}
 main section .awork .awork-picture {
   border: 1px solid springgreen;
   height: 100%;
   width: 50%;
 }
 main section .awork .awork-picture img {
-  height: 200px;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }/*# sourceMappingURL=style.css.map */

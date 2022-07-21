@@ -121,12 +121,18 @@ main{
                 width: 50%;
                 font-family: 'Marcellus', Helvetica, sans-serif;
                 font-weight: 500;
+                p{ border: 1px solid palevioletred;
+
+                }
             }
             .awork-picture{ border: 1px solid springgreen;
                 height: 100%;
                 width: 50%;
                 img{
-                    height: 200px;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: top;
                 }
             }
         }
